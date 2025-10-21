@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="image/trailblazer_Raccoon_Emoji.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Guia da Lixeira para a Galáxia</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Stelle <span>Trailblazer</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Início</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">Sobre</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#">Habilidades</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Serviços</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contato</a></div>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Início</a>
+                <a href="">Sobre</a>
+                <a href="">Habilidades</a>
+                <a href="">Serviços</a>
+                <a href="">Contato</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Olá! Eu sou a <span>Stelle</span></h1>
+                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">Eu sou uma <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Especialista em exploração espacial, combate com bastão e inspeção minuciosa de lixeiras. Sim, lixeiras são fascinantes - você nunca sabe o que pode encontrar!</p>
+                <div class="social-links">
+                    <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-solid fa-star"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-solid fa-trash-can"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-solid fa-baseball-bat-ball"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-solid fa-train"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Baixar Relatório de Lixeiras</button>
+                </div>
+            </div>
+            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="image/transformada_em_png.png" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0,});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
